@@ -1,5 +1,5 @@
 # -SoC-Verification-Using-SystemVerilog-
-This project demonstrates the functional verification of a simplified System-on-Chip (SoC) design using **SystemVerilog**. The SoC includes an embedded processor and peripheral components, verified through simulation using **testbenches**, **assertions**, and **constrained-random verification** techniques.  
+This project demonstrates the functional verification of a simplified System-on-Chip (SoC) design using **SystemVerilog**. 
 # SoC Verification Using SystemVerilog
 
 ## Overview
@@ -10,14 +10,7 @@ The objective is to ensure correctness, improve coverage, and validate corner ca
 
 ---
 
-## Technologies Used
 
-- **SystemVerilog** – Testbench development, assertions (SVA), constrained-random generation
-- **Verilog** – RTL description of the SoC
-- **ModelSim / QuestaSim** – Simulation and waveform analysis
-- **Functional Coverage** – Track verification completeness
-- **Assertions** – Real-time protocol and behavior checking
-- **Constrained-Random Testing** – Stress test corner cases
 
 ---
 

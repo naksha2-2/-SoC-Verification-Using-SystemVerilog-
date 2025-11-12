@@ -15,6 +15,14 @@ The objective is to ensure correctness, improve coverage, and validate corner ca
 ---
 
 ## Project Structure
+## Technologies Used
+
+- **SystemVerilog** – Testbench development, assertions (SVA), constrained-random generation
+- **Verilog** – RTL description of the SoC
+- **ModelSim / QuestaSim** – Simulation and waveform analysis
+- **Functional Coverage** – Track verification completeness
+- **Assertions** – Real-time protocol and behavior checking
+- **Constrained-Random Testing** – Stress test corner cases
 
 ---
 

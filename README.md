@@ -21,7 +21,7 @@ The objective is to ensure correctness, improve coverage, and validate corner ca
 - **Verilog** – RTL description of the SoC
 - **ModelSim / QuestaSim** – Simulation and waveform analysis
 - **Functional Coverage** – Track verification completeness
-- **Assertions** – Real-time protocol and behavior checking
+- 
 - **Constrained-Random Testing** – Stress test corner cases
 
 ---
@@ -36,7 +36,7 @@ The objective is to ensure correctness, improve coverage, and validate corner ca
 
 ---
 
-## Getting Started
+
 
 ### Prerequisites
 

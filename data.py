@@ -36,15 +36,4 @@ module testbench;
         reset = 1;
         #10 reset = 0;
 
-        // Test cases
-        data_in = 5;  #10;
-        cg_data_in_inst.sample();
-        data_in = 10; #10;
-        cg_data_in_inst.sample();
-        data_in = 15; #10;
-        cg_data_in_inst.sample();
 
-        // End simulation
-        $finish;
-    end
-endmodule

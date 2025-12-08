@@ -1,5 +1,5 @@
 module testbench;
-    // Testbench signals
+    // Testbench signals generation
     reg clk;
     reg reset;
     reg [31:0] data_in;
@@ -13,7 +13,7 @@ module testbench;
         .data_out(data_out)
     );
 
-    // Clock generation
+    // Clock generation so that the clock can toggle every 5 min
     always begin
         #5 clk = ~clk;  // Toggle clock every 5 time units
     end
@@ -45,3 +45,4 @@ module testbench;
         $finish;
     end
 endmodule
+

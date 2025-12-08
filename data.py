@@ -33,7 +33,7 @@ module testbench;
         cg_data_in_inst = new;
 
         // Apply reset
-        reset = 1;
+        reset = 1;      #This applies clock simulatons
         #10 reset = 0;
         // Test cases
         data_in = 5;  #10;
@@ -44,9 +44,10 @@ module testbench;
         cg_data_in_inst.sample();
 
         // End simulation
-        $finish;
+        $finish; #This statement preferably ends the simulation started here
     end
 endmodule
+
 
 
 

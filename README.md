@@ -28,11 +28,11 @@ The objective is to ensure correctness, improve coverage, and validate corner ca
 
 ## Key Features
 
-- ✅ **Self-checking testbench** using SystemVerilog
-- ✅ **Functional coverage** tracking of SoC features
-- ✅ **SystemVerilog Assertions (SVA)** for protocol verification
-- ✅ **Constrained-random stimulus generation**
-- ✅ **Waveform analysis** for debugging and validation
+ ✅ **Self-checking testbench** using SystemVerilog
+ ✅ **Functional coverage** tracking of SoC features
+ ✅ **SystemVerilog Assertions (SVA)** for protocol verification
+ ✅ **Constrained-random stimulus generation**
+ ✅ **Waveform analysis** for debugging and validation
 
 ---
 
@@ -40,7 +40,7 @@ The objective is to ensure correctness, improve coverage, and validate corner ca
 
 ### Prerequisites
 
-- [ModelSim](https://eda.sw.siemens.com/en-US/ic/modelsim/) or equivalent SystemVerilog simulator
+- [ModelSim](https://eda.sw.siemens.com/en-US/ic/modelsim/) or equivalent SystemVerilog simulator or Vertilator
 - Basic knowledge of Verilog and SystemVerilog
 
 ### How to Run
